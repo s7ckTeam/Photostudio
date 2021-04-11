@@ -1,0 +1,5 @@
+requests
+selenium
+selenium==2.48.0
+colorama
+xlrd

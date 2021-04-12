@@ -1,10 +1,10 @@
 # /usr/bin/env python
 # -*- coding: utf-8 -*-
 import sys
-from lib.log import MY_LOGGER as logger
 sys.dont_write_bytecode = True
 
 try:
+    from lib.log import MY_LOGGER as logger
     import console
 
     console.main()

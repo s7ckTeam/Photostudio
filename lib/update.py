@@ -54,7 +54,7 @@ def update():
                 with zipfile.ZipFile(archive) as f:
                     for info in f.infolist():
                         info.filename = re.sub(
-                            r"s7ckTeam-Snapshot[^/]+", "", info.filename)
+                            r"Photostudio-main/", "", info.filename)
                         if info.filename:
                             f.extract(info, directory)
 

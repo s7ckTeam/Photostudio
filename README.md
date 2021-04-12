@@ -16,7 +16,7 @@
   
   #### 功能点
   
-  - 批量检测url
+  - 批量调用Fofa/Zoomeye/360qua/shodan等Api接口获取资产信息
   
   - 自动化检测url存活，拍照截图
   
@@ -41,7 +41,9 @@
   ### 安装
   
   	git clone https://github.com/s7ckTeam/Photostudio
+  	
   	cd Photostudio
+  	
   	pip3 install -r requirements.txt
   
   ## 二、使用方法：
@@ -94,6 +96,14 @@
   ## 五、文末
   
   红队武器库，我们在一线
+  
+  问题/bug/建议在这里
+  
+  https://github.com/s7ckTeam/Photostudio/issues
+  
+  加微信进交流群
+  
+  ![image.png](https://i.loli.net/2021/04/12/aC41hpcyGAg3NWs.png)
   
   商务/投稿/加入团队：s7ck@qq.com
   

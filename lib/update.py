@@ -30,11 +30,11 @@ def update():
     else:
         exit(0)
     try:
-        open(os.path.join(directory, "main.py"), "w+b")
+        open(os.path.join(directory, "Photostudio.py"), "w+b")
     except Exception as ex:
         logger.error("无法更新目录的内容 '{0}'".format(ex))
     else:
-        attrs = os.stat(os.path.join(directory, "main.py")).st_mode
+        attrs = os.stat(os.path.join(directory, "Photostudio.py")).st_mode
         for wildcard in ('*', "."):
             for _ in glob.glob(os.path.join(directory, wildcard)):
                 try:
